@@ -73,9 +73,12 @@ ul {
 
 a {
     color: rgb(255, 255, 255);
+    font-family: 'Century Gothic', arial, sans-serif;
+    font-size: 18;
 }
 
 a:hover {
     color:rgb(134, 134, 134)
+    cursor: pointer; 
     
 }
