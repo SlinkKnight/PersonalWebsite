@@ -82,7 +82,17 @@ a {
 }
 
 a:hover {
-    color:rgb(134, 134, 134)
+    color:rgb(211, 211, 211);
     cursor: pointer; 
     
+}
+
+hr { 
+    display: block; 
+    height: 3px;
+    border: 0; 
+    border-top: 2px solid rgb(116, 116, 116);
+    border-radius: 100%;
+    margin: 1em 0; 
+    padding: 0;
 }
