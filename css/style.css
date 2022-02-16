@@ -12,6 +12,10 @@
     border-radius: 2%;
 }
 
+.invisible-link {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     background: url(https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?cs=srgb&dl=pexels-mohamed-almari-1485894.jpg&fm=jpg) no-repeat;
