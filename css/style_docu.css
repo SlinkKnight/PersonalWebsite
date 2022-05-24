@@ -1,1 +1,105 @@
-h1 {color: white;}
+.box{
+    box-sizing: border-box;
+    height: 100%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: auto;
+    color: rgb(218, 218, 218);
+    font-family: 'Century Gothic', arial, sans-serif;
+    border-radius: 2%;
+}
+
+.invisible-link {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background: url(https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?cs=srgb&dl=pexels-mohamed-almari-1485894.jpg&fm=jpg) no-repeat;
+    padding: 0;
+    background-size: cover;
+}
+
+.box-pfp{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+
+}
+
+.box h1 {
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.box h4 {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+
+.box p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+ p .discord{
+    color: rgb(216, 214, 211);
+    font-size: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    transition: all ease 250ms;
+}
+
+.box li a:hover {
+    color: rgb(134, 134, 134);
+    font-size: +10px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic', arial, sans-serif;
+    font-size: 18;
+}
+
+a:hover {
+    color:rgb(211, 211, 211);
+    cursor: pointer; 
+    
+}
+
+hr { 
+    display: block; 
+    height: 3px;
+    border: 0; 
+    border-top: 2px solid rgb(116, 116, 116);
+    border-radius: 100%;
+    margin: 1em 0; 
+    padding: 0;
+}
+
+.certificate {
+
+    border-radius: 20%;
+
+}
